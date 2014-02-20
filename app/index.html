@@ -23,7 +23,15 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
+    <div class="header">
+      <div class="container">
+        <ul class="nav nav-pills pull-right">
+          <li><a ng-href="/">Home</a></li>
+          <li><a ng-href="#chuck">Chuck</a></li>
+        </ul>
+        <h3 class="text-muted">angular2</h3>
+      </div>
+    </div>
     <!-- Add your site or application content here -->
     <div class="container" ng-view=""></div>
 
@@ -58,6 +66,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/chuck.js"></script>
         <!-- endbuild -->
 </body>
 </html>
