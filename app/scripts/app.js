@@ -9,8 +9,8 @@ angular.module('angular2App', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/chuck.html',
+        controller: 'ChuckCtrl'
       })
       .when('/chuck', {
         templateUrl: 'views/chuck.html',
